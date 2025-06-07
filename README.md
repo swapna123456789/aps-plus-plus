@@ -6,6 +6,10 @@
 ![Discord](https://img.shields.io/discord/1004907608018264094)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Taureon/aps-plus-plus)
 
+# IMPORTANT MESSAGE
+
+The rewrite of aps++ is now available, you can get the latest version on aps++ [here](https://www.google.com). This version of aps++ will no longer receive updates.
+
 ## Important Notice
 
 **Open Source Arras is beta software.** This build is **not** representative of the final product. Expect bugs and missing features.
