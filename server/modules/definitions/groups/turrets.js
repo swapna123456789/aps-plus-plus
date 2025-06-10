@@ -473,6 +473,22 @@ Class.juliusLowerTurret = makeTurret({
         },
     ],
 }, {canRepel: true, limitFov: true, extraStats: []})
+Class.swarmer = {
+    PARENT: "genericTank",
+    LABEL: "Swarmer",
+    GUNS: [
+        {
+            POSITION: [15, 14, -1.2, 5, 0, 0, 0],
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.pounder, g.destroyer, g.hive]),
+                TYPE: "hive",
+            },
+        },
+        {
+            POSITION: [15, 12, 1, 5, 0, 0, 0],
+        },
+    ],
+}
 Class.swarmerTurret = makeTurret('swarmer', {canRepel: true, limitFov: true, extraStats: []})
 Class.basicTurret = makeTurret({
     GUNS: [
