@@ -6,9 +6,9 @@
 ![Discord](https://img.shields.io/discord/1004907608018264094)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Taureon/aps-plus-plus)
 
-# IMPORTANT MESSAGE
+# Important Notice 2
 
-The rewrite of aps++ is now available, you can get the latest version on aps++ [here](https://www.google.com). This version of aps++ will no longer receive updates.
+This version of Open Source Arras will no longer be updated.
 
 ## Important Notice
 
