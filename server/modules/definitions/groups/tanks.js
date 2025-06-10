@@ -3080,9 +3080,9 @@ Class.helix = {
         },
     ],
 }
-Class.sidewinder = {
+Class.spiral = {
     PARENT: "genericTank",
-    LABEL: "Sidewinder",
+    LABEL: "Spiral",
     DANGER: 6,
     STAT_NAMES: statnames.desmos,
     UPGRADE_TOOLTIP: "[DEV NOTE] This tank does not function as intended yet!",
@@ -3946,8 +3946,8 @@ Class.basic.UPGRADES_TIER_1 = ["twin", "sniper", "machineGun", "flankGuard", "di
         Class.triTrapper.UPGRADES_TIER_3 = ["fortress", "hexaTrapper", "septaTrapper", "architect"]
         Class.trapGuard.UPGRADES_TIER_3 = ["bushwhacker", "gunnerTrapper", "bomber", "conqueror", "bulwark"]
 
-    Class.desmos.UPGRADES_TIER_2 = ["helix", "sidewinder", "undertow", "repeater"]
+    Class.desmos.UPGRADES_TIER_2 = ["helix", "spiral", "undertow", "repeater"]
         Class.helix.UPGRADES_TIER_3 = ["triplex", "quadruplex", "coil", "duplicator"]
-        Class.sidewinder.UPGRADES_TIER_3 = ["coil", "python", "ranch", "oroboros", "cocci"]
+        Class.spiral.UPGRADES_TIER_3 = ["coil", "python", "ranch", "oroboros", "cocci"]
         Class.undertow.UPGRADES_TIER_3 = ["riptide"]
         Class.repeater.UPGRADES_TIER_3 = ["iterator", "duplicator"]
