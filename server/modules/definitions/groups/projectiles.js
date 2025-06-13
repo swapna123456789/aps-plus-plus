@@ -196,7 +196,7 @@ Class.spinmissile = {
             STAT_CALCULATOR: "thruster",
             WAIT_TO_CYCLE: true,
         },
-    }, 3),
+    }, 2),
 }
 Class.hyperspinmissile = {
     PARENT: "spinmissile",
@@ -208,7 +208,7 @@ Class.hyperspinmissile = {
             TYPE: ["bullet", { PERSISTS_AFTER_DEATH: true }],
             STAT_CALCULATOR: "thruster",
         },
-    }, 5),
+    }, 4),
 }
 Class.hive = {
     PARENT: "bullet",
@@ -694,29 +694,3 @@ Class.homingBullet = {
     },
     CAN_GO_OUTSIDE_ROOM: true
 }
-Class.landGrabberSentryTurret = {
-    PARENT: "autoTurret",
-    LABEL: "",
-    HAS_NO_RECOIL: true,
-    SHAPE: 4.5,
-    BODY: { FOV: 2 },
-    GUNS: [{
-        POSITION: [20, 6, 1.3, 0, 7, 0, 0],
-        PROPERTIES: { SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.power, g.turret, g.machineGun, { reload: 0.5, shutter: 0.5, speed: 1.25 }]), TYPE: "bullet", STAT_CALCULATOR: "fixedReload" },
-    }, {
-        POSITION: [20, 6, 1.3, 0, -7, 0, 0.5],
-        PROPERTIES: { SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.power, g.turret, g.machineGun, { reload: 0.5, shutter: 0.5, speed: 1.25 }]), TYPE: "bullet", STAT_CALCULATOR: "fixedReload" },
-    }]
-};
-
-Class.landGrabberSentry = {
-    PARENT: "setTrap",
-    LABEL: "Sentry",
-    CONTROLLERS: ["nearestDifferentMaster"],
-    INDEPENDENT: true,
-    DIE_AT_RANGE: true,
-    TURRETS: [{
-        POSITION: [15, 0, 0, 0, 360, 1],
-        TYPE: "landGrabberSentryTurret",
-    }]
-};

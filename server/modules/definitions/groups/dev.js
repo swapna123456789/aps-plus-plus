@@ -2722,7 +2722,7 @@ Class.flace = {
     SKILL_CAP: [dfltskl, dfltskl, dfltskl, dfltskl, dfltskl, dfltskl, dfltskl, dfltskl, dfltskl, dfltskl],
 }
 
-Class.developer.UPGRADES_TIER_0 = ["tanks", "bosses", "spectator", "levels", "teams", "eggGenerator", "testing", "addons", "landGrabber"]
+Class.developer.UPGRADES_TIER_0 = ["tanks", "bosses", "spectator", "levels", "teams", "eggGenerator", "testing", "addons"]
     Class.tanks.UPGRADES_TIER_0 = ["basic", "unavailable", "arenaCloser", "dominators", "sanctuaries", "mothership", "baseProtector", "antiTankMachineGun"]
         Class.unavailable.UPGRADES_TIER_0 = ["flail", "jumpSmasher", "healer", "literallyAMachineGun", "literallyATank", "master", "volute", "whirlwind"]
             Class.flail.UPGRADES_TIER_2 = ["doubleFlail", "mace", "flangle"]
