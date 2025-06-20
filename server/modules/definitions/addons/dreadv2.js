@@ -1319,7 +1319,7 @@ Class.arbitratorOfficialV2 = {
 		{
 			POSITION: [7.5, 10.75, 1.33, 5.5, 0, 0, 0],
 			PROPERTIES: {
-				SHOOT_SETTINGS: combineStats([g.basic, g.machineGun, g.twin, g.triplet, g.spam, g.spam, {size: 0.7,  health: 1.05, range: 0.8, reload: 1}]),
+				SHOOT_SETTINGS: combineStats([g.basic, g.machineGun, g.twin, g.triplet, g.spam, g.spam, {size: 0.7, health: 1.05, range: 0.8, reload: 1}]),
 				TYPE: "bullet",
 			},
 		}, {

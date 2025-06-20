@@ -1209,7 +1209,7 @@ class View {
         // Update the gui
         player.gui.update();
         // Send it to the player
-        this.socket.talk(
+        let finalData = [
             "u",
             rightNow,
             camera.x,
@@ -1220,8 +1220,8 @@ class View {
             camera.scoping,
             ...player.gui.publish(),
             visible.length,
-            ...view
-        );
+            ...view];
+        this.socket.talk2(finalData);
         logs.network.endTracking();
     }
 }
@@ -1548,6 +1548,11 @@ const sockets = {
         // Put the fundamental functions in the socket
         socket.kick = (reason) => kick(socket, reason);
         socket.talk = (...message) => {
+            if (socket.readyState === socket.OPEN) {
+                socket.send(protocol.encode(message), { binary: true });
+            }
+        };
+        socket.talk2 = (message) => {
             if (socket.readyState === socket.OPEN) {
                 socket.send(protocol.encode(message), { binary: true });
             }
