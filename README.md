@@ -8,6 +8,7 @@
 
 # Important Notice 2
 
+The rewrite of aps++ is now available, you can get the latest version on aps++ [here](https://github.com/AE0hello/open-source-arras/).
 This version of Open Source Arras will no longer be updated.
 
 ## Important Notice

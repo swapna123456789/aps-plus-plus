@@ -24,9 +24,9 @@ module.exports = ({ Config }) => {
 
 				
 				disableCrashers ? // no crashers
-					`laby_${j}_${i}_${k}_0`
+					`laby_${i}_${j}_${k}_0`
 				: // 2-wide dimension of the 2 shape "ranks" - normal, crasher
-					[[24, `laby_${j}_${i}_${k}_0`], [1, `laby_${j}_${i}_${k}_1`]]
+					[[24, `laby_${i}_${j}_${k}_0`], [1, `laby_${j}_${i}_${k}_1`]]
 			])
 		])
 	]);
