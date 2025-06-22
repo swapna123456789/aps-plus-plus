@@ -1143,6 +1143,7 @@ Class.sidewinder = {
         },
     ],
 }
+Class.gunner3 = makeRadialAuto("auto4gun", {isTurret: true, danger: 7, size: 13, x: 6, label: "Gunner-3"})
 
 // Whirlwind
 Class.whirlwindDeco = makeDeco(6)
@@ -2724,7 +2725,7 @@ Class.flace = {
 
 Class.developer.UPGRADES_TIER_0 = ["tanks", "bosses", "spectator", "levels", "teams", "eggGenerator", "testing", "addons"]
     Class.tanks.UPGRADES_TIER_0 = ["basic", "unavailable", "arenaCloser", "dominators", "sanctuaries", "mothership", "baseProtector", "antiTankMachineGun"]
-        Class.unavailable.UPGRADES_TIER_0 = ["flail", "jumpSmasher", "healer", "literallyAMachineGun", "literallyATank", "master", "volute", "whirlwind"]
+        Class.unavailable.UPGRADES_TIER_0 = ["flail", "gunner3", "jumpSmasher", "healer", "literallyAMachineGun", "literallyATank", "master", "volute", "whirlwind"]
             Class.flail.UPGRADES_TIER_2 = ["doubleFlail", "mace", "flangle"]
                 Class.doubleFlail.UPGRADES_TIER_3 = ["tripleFlail"]
                 Class.mace.UPGRADES_TIER_3 = ["bigMama", "itHurtsDontTouchIt", "flace"]
