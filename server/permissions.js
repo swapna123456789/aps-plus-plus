@@ -27,7 +27,7 @@ module.exports = [
         "note": "note here"
     },
     {
-        "key": process.env.TOKEN_4,
+        "key": sub21a2t,
         "discordID": "0",
         "nameColor": "#ffffff",
         "class": "developer",
